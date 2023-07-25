@@ -1,0 +1,230 @@
+body
+{
+    font: 15px/1.5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+}
+.container
+{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+header 
+{
+    background: rgb(45, 44, 56);
+    color: white;
+    border-bottom: 3px solid salmon;
+    min-height: 100px;
+}
+/*global*/
+button
+{
+    width: 150px;
+    background-color: salmon;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+header h1
+{
+    font-weight: bold;
+    font-size: 50px;
+    border: 0;
+    padding: 0;
+    margin-top:20px;
+    color: salmon;
+}
+header .smallhead
+{
+    border: 0;
+    padding: 0;
+    margin-left: 5px;
+    font-size: 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(235, 226, 226);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ul
+{
+    margin:0px;
+    padding: 0px;
+}
+
+header ul li
+{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header .brand
+{
+    margin-left: 20px;
+    float: left;
+}
+header nav{
+    float:right;
+    margin-top: 40px;
+}
+header .active
+{
+    color: salmon;
+}
+.showcase 
+{
+    margin: 0;
+    padding: 0;
+    min-height: 250px;
+    background: url(../img/showcase.jpg) no-repeat 0px -200px;
+    background-size: cover;
+}
+.showcase h1
+{
+    color: rgb(233, 230, 230);
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+.showcase p
+{
+    color: bisque;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+.newsletter
+{
+    background: rgb(45, 44, 56);
+    min-height: 50px;
+    color: aliceblue;
+}
+.newsletter input[type=email]
+{
+    width: 200px;
+    min-height: 20px;
+}
+.newsletter p
+{
+    float: left;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.newsletter form
+{
+    margin-top: 10px;
+    float: right;
+    margin-right: 100px;
+}
+.box img
+{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 200px;
+}
+#boxes .container
+{
+    padding: 0;
+    margin:0;
+    background: rgb(238, 231, 231);
+}
+#boxes .box
+{
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding: 2px;
+    text-align: center;
+}
+.box p
+{
+    text-align: justify;
+    margin-left: 25px;
+}
+footer
+{
+  min-height: 30px;
+  background: salmon;
+  color: white;
+}
+footer p
+{
+    float: left;
+    margin-right: 90px;
+    margin-top:2px;
+}
+.foot img
+{
+    height: 1%;
+    width: 1%;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.profile
+{
+    width:20%;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    padding: 0;
+}
+.profile img
+{
+    margin-left:50px;
+    margin-top: 20px;
+    width:50%;
+}
+.profile h4
+{
+    margin-left:40px;
+}
+.about
+{
+    width:70%;
+    float:left;
+}
+.about p
+{
+    margin-right: 10px;
+    text-align: justify;
+}
+.remaining p
+{
+    margin-top: 2px;
+    margin-right: 100px;
+    margin-left:10px;
+    text-align: justify;
+}
+@media(max-width : 768px)
+{
+    header h1
+    {
+        font-size:30px;
+        border: 1px solid black;
+        margin-bottom:10px;
+        float: none;
+    }
+    header
+    {
+        height:120px;
+    }
+    header nav
+    {
+        margin-top:10px;
+        float: right;
+    }
+    
+}
