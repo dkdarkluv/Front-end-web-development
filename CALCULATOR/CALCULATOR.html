@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <button onclick=" window.open('file:///C:/Users/HP/Desktop/PRODIGY/RESPONSIVE_WEB_PAGE/msm.html')" style="z-index: 3;">PRESS</button>
+        <div class="calculator">
+            <input type="text" name="input" id="input" placeholder="0">
+            <div>
+                <br>
+            </div>
+            <div>
+            <button  onclick="clr()">AC</button>
+            <button  onclick="del()">DEL</button>
+            <button  onclick="display('.')">.</button>
+            <button  onclick="display('/')">/</button>
+            </div>
+
+            <div>
+            <button   onclick="display('7')">7</button>
+            <button   onclick="display('8')">8</button>
+            <button   onclick="display('9')">9</button>
+            <button   onclick="display('*')">*</button>
+            </div>
+            <div>           
+            <button   onclick="display('4')">4</button>
+            <button   onclick="display('5')">5</button>
+            <button   onclick="display('6')">6</button>
+            <button   onclick="display('-')">-</button>
+            </div>
+            <div>
+            <button   onclick="display('1')">1</button>
+            <button   onclick="display('2')">2</button>
+            <button   onclick="display('3')">3</button>
+            <button   onclick="display('+')">+</button>
+            </div>
+            <div>
+            <button   onclick="display('00')">00</button>
+            <button   onclick="display('0')">0</button>
+            <button   onclick="calculate('=')" id="equal">=</button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <img src="img.png" height="700px" width="500px" style="position:relative; left:350px;  top:-700px; z-index: 1;">
+
+    
+</body>
+<script src="script_calculator.js"></script>
+</html>
